@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
   s.source_files     = 'Sources/SegmentFirebase/**/*.{swift,h,m}'
 
   s.dependency 'Segment', '>= 1.1.2', '< 2.0.0'
+  s.dependency 'Firebase', '>= 11.1.0'
   s.dependency 'FirebaseAnalytics', '>= 11.1.0'
 end
